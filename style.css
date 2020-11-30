@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+}
+
+.main{
+    background-color: #f8f8f8;
+    margin: 0px 450px 0px 450px;
+    border: 2px solid black;
+}
+
+.hello{
+    background-color: #006666;
+    color: white;
+    margin-top: 0px;
+}
+
+.name{
+    background-color: #0080c0;
+    color: white;
+    margin: 10px 210px 10px 210px;
+    border: 2px solid black;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.rectangle{
+    width: 300px;
+    height: 150px;
+    background-color: saddlebrown;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: #9a9305;
+    border-radius: 50%;
+}
+
+.oval{
+    width: 200px;
+    height: 100px;
+    background-color: #400080;
+    border-radius: 100px/50px;
+}
+
+.triangleup{
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid yellow;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.triangledown{
+    width: 0;
+    height: 0;
+    border-top: 200px solid goldenrod;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;  
+}
+
+.triangleleft{
+    width: 0;
+    height: 0;
+    border-right: 200px solid greenyellow;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+
+.triangleright{
+    width: 0;
+    height: 0;
+    border-left: 200px solid brown;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+
+.green{
+    background-color: green;
+    height: 250px;
+    width: 500px;
+    position: relative;
+}
+
+.red{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
